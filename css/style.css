@@ -8,12 +8,12 @@ html {
 }
   body {
     margin: 0px;
-    background-color: hsla(243, 86%, 49%, 0.31);
+    background-color: hsla(#002387);
     min-height: 100%;
     min-width: 100%;
   }
   
-  .main {
+  .imp {
     text-align: justify;
     color: black;
   }
@@ -38,4 +38,12 @@ html {
 
   header .logo img{
     height: 6rem;
+}
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
 }
